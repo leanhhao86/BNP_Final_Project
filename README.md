@@ -14,7 +14,7 @@ Message structure:
     2: Request to create a room
         Type 0: From client | Message: Empty
         Type 1: From server | Message: Room Code 
-    3: Request to join specied room
+    3: Request to join specified room
         Type 0: From client | Message: Room Code
         Type 1: From server | Message: 1 is valid, 0 is invalid
     4: Game data
